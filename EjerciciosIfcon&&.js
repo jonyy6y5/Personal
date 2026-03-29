@@ -1,5 +1,5 @@
 
-
+//Ver si es mayor de edad
 let edad =17
 
 if (edad>=18){
@@ -8,6 +8,7 @@ if (edad>=18){
   console.log("Es menoor")
 }
   
+//Numeros positivos
  let numero= 0
 
  if (numero>0){
@@ -19,7 +20,7 @@ if (edad>=18){
   console.log("Es cero")
  }
  
-
+//numero positivos par o impar y viceversa
  let num=0;
 
  if (num>0 && num % 2===0){
@@ -35,7 +36,7 @@ if (edad>=18){
   console.log("es cero")
  }
 
-
+// calificaciones aprobatorias
 let calif= 11
 if (calif>= 10){
   console.log("Exelente")
@@ -47,6 +48,7 @@ if (calif>= 10){
   console.log("Reprobado")
 }
 
+// verificacion si puede manejar
 let edada = 16
 let licencia = true
 
@@ -57,6 +59,7 @@ if (edada >= 16 && licencia){
   console.log("No puede manejar")
 }
 
+// verificacion si el alumno puede aprobar
 let califi = 8
 let asist = 70
 
@@ -66,7 +69,7 @@ if (califi>= 6 && asist >= 80){
   console.log("El alumno saco " + califi + " pero tuvo el " + asist + "% de asistencias" + " por lo tanto esta reprobado")
 }
   
-
+// temperatura
 let temp = 17
  if (temp>=18 && temp<= 26){
   console.log("La temperatura es agradable")
@@ -74,7 +77,7 @@ let temp = 17
   console.log("La temperatura no es agradable")
  }
   
-
+// cuenta registro
  let registro = true;
  let cuentaverif = true;
 
@@ -84,6 +87,7 @@ let temp = 17
   console.log("No puedes publicar, por favor registrate y verifica tu cuenta")
  }
   
+ //numero valido
 
  let numJ=3
  if (numJ>0 && numJ<=100){
